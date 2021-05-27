@@ -1,0 +1,11 @@
+@import './styles/colors.scss';
+@import './styles/fonts.scss';
+
+body {
+  background-color: $main-background;
+  color: $white;
+  font-family: $lexendDecaRegular, "arial", "serif", sans-serif;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

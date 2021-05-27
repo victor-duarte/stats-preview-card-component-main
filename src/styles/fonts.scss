@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "InterRegular";
+  src: local("InterRegular"),
+    url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: local("InterBold"),
+    url("../fonts/Inter/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LexendDecaRegular";
+  src: local("LexendDecaRegular"),
+    url("../fonts/Lexend_Deca/LexendDeca-Regular.ttf") format("truetype");
+}
+
+$interBold: 'InterBold';
+$interRegular: "InterRegular";
+$lexendDecaRegular: "LexendDecaRegular";

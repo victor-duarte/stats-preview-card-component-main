@@ -1,11 +1,11 @@
-import "./index.css";
+import "./index.scss";
 
 function Card() {
   return (
     <div className="card">
       <img src="./" alt="" />
       <div className="card__body">
-        <h2 className="title">
+        <h2 className="card__title">
           Get <span>insights</span> that help your business grow.
         </h2>
         <p className="card__description">
