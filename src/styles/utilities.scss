@@ -1,0 +1,17 @@
+// Visibility
+
+.visible-sm {
+  display: block;
+
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
+}
+
+.visible-xl {
+  display: none;
+
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
+}

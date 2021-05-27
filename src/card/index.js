@@ -3,7 +3,18 @@ import "./index.scss";
 function Card() {
   return (
     <div className="card">
-      <img src="./" alt="" />
+      <div className="card__asset">
+        <img
+          alt=""
+          className="visible-sm"
+          src="../images/image-header-mobile.jpg"
+        />
+        <img
+          alt=""
+          className="visible-xl"
+          src="../images/image-header-desktop.jpg"
+        />
+      </div>
       <div className="card__body">
         <h2 className="card__title">
           Get <span>insights</span> that help your business grow.
