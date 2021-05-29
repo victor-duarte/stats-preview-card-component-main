@@ -1,9 +1,9 @@
 // TODO: update @function @pxToRem to accept multiple values
-// TODO: storybook
 // TODO: tests
 // TODO: container for outer spacing
 // TODO: dynamic data, multiple cards
 // TODO: cross browsing
+// TODO: custom headline tag
 
 @import "../styles/colors.scss";
 @import "../styles/fonts.scss";
@@ -23,6 +23,7 @@ $stat-headings: hsla(0, 0%, 100%, 0.6);
   background-color: $card-background;
   border-radius: pxToRem(8);
   color: $main-paragraph;
+  font-family: $lexendDecaRegular, "arial", "serif", sans-serif;
   margin: pxToRem(88) pxToRem(24);
   max-width: pxToRem(500);
   overflow: hidden;
