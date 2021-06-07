@@ -37,7 +37,13 @@ $stat-headings: hsla(0, 0%, 100%, 0.6);
     max-width: pxToRem(1110);
   }
 
+  picture {
+    display: block;
+    height: 100%;
+  }
+
   img {
+    display: block;
     mix-blend-mode: multiply;
     width: 100%;
 

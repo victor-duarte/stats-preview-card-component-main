@@ -4,16 +4,10 @@ function Card() {
   return (
     <div className="card">
       <div className="card__asset">
-        <img
-          alt=""
-          className="visible-sm"
-          src="../images/image-header-mobile.jpg"
-        />
-        <img
-          alt=""
-          className="visible-xl"
-          src="../images/image-header-desktop.jpg"
-        />
+        <picture>
+          <source srcSet="../images/image-header-desktop.jpg" media="(min-width: 1440px)" />
+          <img src="../images/image-header-mobile.jpg" alt="" />
+        </picture>
       </div>
       <div className="card__body">
         <h2 className="card__title">

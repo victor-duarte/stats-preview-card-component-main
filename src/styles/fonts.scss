@@ -1,16 +1,19 @@
 @font-face {
+  font-display: swap;
   font-family: "InterRegular";
   src: local("InterRegular"),
     url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "InterBold";
   src: local("InterBold"),
     url("../fonts/Inter/Inter-Bold.ttf") format("truetype");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "LexendDecaRegular";
   src: local("LexendDecaRegular"),
     url("../fonts/Lexend_Deca/LexendDeca-Regular.ttf") format("truetype");
