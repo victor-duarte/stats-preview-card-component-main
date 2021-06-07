@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Frontend Mentor | Stats preview card component",
   "scripts": {
+    "build": "react-scripts build",
     "build-storybook": "build-storybook -s public",
     "format": "npx prettier --write .",
     "start": "react-scripts start",
