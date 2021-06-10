@@ -1,22 +1,17 @@
 import "./index.scss";
 
-function Card() {
+function Card({ author, description, image, title, url }) {
   return (
     <div className="card">
       <div className="card__asset">
         <picture>
-          <source srcSet="../images/image-header-desktop.jpg" media="(min-width: 1440px)" />
-          <img src="../images/image-header-mobile.jpg" alt="" />
+          <source srcSet={url} media="(min-width: 1440px)" />
+          <img src={url} alt={image.alt_text} />
         </picture>
       </div>
       <div className="card__body">
-        <h2 className="card__title">
-          Get <span>insights</span> that help your business grow.
-        </h2>
-        <p className="card__description">
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
+        <h2 className="card__title">{title}</h2>
+        <p className="card__description">{description}</p>
         <dl className="card__stats">
           <dt>10k+</dt>
           <dd>companies</dd>

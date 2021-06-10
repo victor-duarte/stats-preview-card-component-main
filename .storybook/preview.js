@@ -7,11 +7,11 @@ export const parameters = {
     },
   },
   backgrounds: {
-    default: 'twitter',
+    default: "twitter",
     values: [
       {
-        name: 'theme',
-        value: '#090b1a',
+        name: "theme",
+        value: "#090b1a",
       },
     ],
   },
